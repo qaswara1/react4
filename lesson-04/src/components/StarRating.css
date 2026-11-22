@@ -1,0 +1,15 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.star-rating__star {
+  border: none;
+  background: none;
+  padding: 0 2px;
+  font-size: 1.25rem;
+  color: var(--gold);
+  cursor: pointer;
+}
